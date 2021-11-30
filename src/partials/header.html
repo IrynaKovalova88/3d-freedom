@@ -1,1 +1,170 @@
-<h2>header</h2>
+<header class="header">
+    <div class="container header-container">
+        <a href="./index.html" class="logo-header_link">
+            <picture>
+
+                <source media="(min-width: 1440px)"
+                    srcset="./images/logo/logo_desktop.png 1x, ./images/logo/logo_desktop@2x.png 2x">
+
+
+                <source media="(min-width: 768px)"
+                    srcset="./images/logo/logo_tablet.png 1x, ./images/logo/logo_tablet@2x.png 2x">
+
+
+                <source media="(min-width: 320px)"
+                    srcset="./images/logo/logo_mobile.png 1x, ./images/logo/logo_mobile@2x.png 2x">
+
+                <img src="./images/logo/logo_mobile.png" alt="Логотип">
+            </picture>
+        </a>
+        <nav class="header__navigation">
+            <ul class="list header__menu-list">
+                <li class="header__menu-list_item">
+                    <a href="./index.html" class="header__menu-list-link">Головна</a>
+                </li>
+                <li class="header__menu-list_item">
+
+                    <!-- ===============Выпадающее меню для десктоп=============== -->
+
+                    <div class="header__menu-dropdown">
+                        <a href="" class="header__menu-list-link header__menu_dropdown-btn">Послуги</a>
+                        <div class="header__menu_dropdown-content">
+                            <ul class="list dropdown-list">
+                                <li>
+                                    <a href="./3d-modeling.html" class="menu-dropdown__link">3D Моделювання</a>
+                                </li>
+                                <li>
+                                    <a href="./scanning.html" class="menu-dropdown__link">3D Сканування</a>
+                                </li>
+                                <li>
+                                    <a href="./printing.html" class="menu-dropdown__link">3D Друк</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- ====================================================================== -->
+                </li>
+                <li class="header__menu-list_item">
+                    <a href="./take-order.html" class="header__menu-list-link">Замовити</a>
+                </li>
+                <li class="header__menu-list_item">
+                    <a href="./contact.html" class="header__menu-list-link">Контакти</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <button class="header__burger-btn" data-menu-open>
+            <svg class="header__burger-icon" width="32" height="32">
+                <use href="./images/icons.svg#icon-burger-menu"></use>
+            </svg>
+        </button>
+
+        <a href="" class="header__phone-icon_link">
+            <svg class="header__phone-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+        </a>
+
+        <!-- ==========Модалка с номерами телефонов для мобильной версии============ -->
+
+        <div class="header__modal-phones">
+            <div class="header__modal-phones_container">
+                <ul class="modal-phones__list">
+                    <li class="modal-phones__list_item">
+                        <a href="" class="modal-phones__list_link">+38 (093) 643 22 88</a>
+                    </li>
+                    <li class="modal-phones__list_item">
+                        <a href="" class="modal-phones__list_link">+38 (050) 345 44 23</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- ===============Селект для выбора языка========================== -->
+
+        <label for="lang" class=""></label>
+        <select id="lang" name="lang" class="header__select">
+            <option value="UA">UA</option>
+            <option value="RU">RU</option>
+            <option value="ENG" selected>ENG</option>
+        </select>
+
+
+        <!-- ===============Номера телефонов для таблет и десктоп============= -->
+        <ul class="list header__phones-list">
+            <li class="header__phones-list_item">
+                <svg class="header__phones-list_icon" width="14" height="14">
+                    <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+                <a href="tel:+380936432288" class="header__phones-list_link">
+
+                    +38 (093) 643 22 88
+                </a>
+            </li>
+            <li class="header__phones-list_item">
+                <svg class="header__phones-list_icon" width="14" height="14">
+                    <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+                <a href="tel:+380503454423" class="header__phones-list_link">
+
+                    +38 (050) 345 44 23
+                </a>
+            </li>
+        </ul>
+        <!-- =========================================================== -->
+    </div>
+    <!-- ======================Модальное меню========================= -->
+    <div class="container adaptive-menu" data-menu>
+        <button class="modal__close-btn" data-menu-close>
+            <svg class="modal-cross-close-icon" width="45" height="45">
+                <use href="./images/icons.svg#icon-cross-close-btn"></use>
+            </svg>
+        </button>
+        <ul class="adaptive-menu__list">
+            <li class="adaptive__main">
+                <a class="adaptive__link" href="./index.html"><span class="adaptive-item">ГОЛОВНА</span></a>
+            </li>
+            <li class="adaptive__main">
+                <a class="adaptive__link" href=""><span class="adaptive-item">ПОСЛУГИ</span></a>
+            </li>
+            <li class="adaptive-menu__main">
+                <a class="adaptive-menu__link" href="./3d-modeling.html"><span class="adaptive-item">3D
+                        Моделювання</span></a>
+            </li>
+            <li class="adaptive-menu__main">
+                <a class="adaptive-menu__link" href="./scanning.html"><span class="adaptive-item">3D
+                        Сканування</span></a>
+            </li>
+            <li class="adaptive-menu__main">
+                <a class="adaptive-menu__link" href="./printing.html"><span class="adaptive-item">3D
+                        Друк</span></a>
+            </li>
+            <li class="adaptive__main">
+                <a class="adaptive__link" href="./take-order.html"><span class="adaptive-item">ЗАМОВИТИ</span></a>
+            </li>
+            <li class="adaptive__main">
+                <a class="adaptive__link" href="./contact.html"><span class="adaptive-item">КОНТАКТИ</span></a>
+            </li>
+        </ul>
+    </div>
+    <!-- =============================================================== -->
+</header>
+
+<!-- ==============Скрипт для открытия модального меню============= -->
+
+<script>
+    (() => {
+        const refs = {
+            openMenuBtn: document.querySelector("[data-menu-open]"),
+            closeMenuBtn: document.querySelector("[data-menu-close]"),
+            menu: document.querySelector("[data-menu]"),
+        };
+
+        refs.openMenuBtn.addEventListener("click", toggleModal);
+        refs.closeMenuBtn.addEventListener("click", toggleModal);
+
+        function toggleModal() {
+            refs.menu.classList.toggle("is-open");
+        }
+    })();
+</script>

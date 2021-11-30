@@ -1,0 +1,481 @@
+@mixin drop($pos: absolute, $wid: 73.65px, $hei: 73.65px, $bg: #ffffff, $mbm: multiply) {
+  position: $pos;
+  width: $wid;
+  height: $hei;
+  background: $bg;
+  mix-blend-mode: $mbm;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .home-phone-fig-63 {
+    @include drop(absolute, 73.65px, 73.65px, #ffffff, multiply);
+    top: 588.53px;
+    right: 0;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 72px;
+  }
+
+  .home-phone-fig-19 {
+    @include drop(absolute, 73.65px, 73.65px, #ffffff, multiply);
+    top: 650.93px;
+    left: -17px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 25px 0px;
+  }
+
+  .home-phone-fig-68 {
+    @include drop(absolute, 73.65px, 73.65px, #ffffff, multiply);
+    right: 0;
+    top: 1033px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 25px 0px;
+    transform: rotate(90deg);
+  }
+
+  .home-phone-fig-12 {
+    @include drop(absolute, 73.65px, 73.65px, #ffffff, multiply);
+    top: 302.61px;
+    left: -29px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 35px 0px;
+  }
+
+  .home-phone-fig-19-38 {
+    @include drop(absolute, 73.65px, 73.65px, #ffffff, multiply);
+    top: 8px;
+    left: 0;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 35px 0px 0px 35px;
+    transform: rotate(180deg);
+  }
+
+  .home-phone-fig-9-38 {
+    @include drop(absolute, 73.65px, 73.65px, #ffffff, multiply);
+    top: 8px;
+    right: 0;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 35px 0px 0px 35px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .home-tablet-fig-2 {
+    @include drop(absolute, 73.65px, 73.65px, #ffffff, multiply);
+    top: 8px;
+    left: 32px;
+    border-radius: 35px 0px 0px 0px;
+  }
+
+  .home-tablet-fig-19-38 {
+    @include drop(absolute, 73.65px, 73.65px, #ffffff, multiply);
+    left: 233px;
+    top: 8px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 35px 0px 0px 35px;
+    transform: rotate(180deg);
+  }
+
+  .home-tablet-fig-9-38 {
+    @include drop(absolute, 73.65px, 73.65px, #ffffff, multiply);
+    top: 8px;
+    right: 233px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 35px 0px 0px 35px;
+  }
+
+  .home-tablet-fig-45 {
+    @include drop(absolute, 73.65px, 73.65px, #ffffff, multiply);
+    top: 82px;
+    right: 105px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+  }
+
+  .home-tablet-fig-12 {
+    @include drop(absolute, 73.65px, 73.65px, #ffffff, multiply);
+    top: 303px;
+    left: 106px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 35px 0px;
+  }
+
+  .home-tablet-fig-5 {
+    @include drop(absolute, 73.65px, 73.65px, #ffffff, multiply);
+    top: 229px;
+    left: 32px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 0px 35px;
+  }
+
+  .home-tablet-fig-60 {
+    @include drop(absolute, 73.65px, 73.65px, #ffffff, multiply);
+    top: 229px;
+    right: 32px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 25px 0px;
+  }
+
+  .home-tablet-fig-19 {
+    @include drop(absolute, 73.65px, 73.65px, #ffffff, hue);
+    top: 651px;
+    left: 32px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 25px 0px;
+  }
+
+  .home-tablet-fig-48 {
+    @include drop(absolute, 73.65px, 73.65px, #ffffff, hue);
+    top: 303px;
+    right: 106px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 25px 0px;
+  }
+
+  .home-tablet-fig-58 {
+    @include drop(absolute, 73.65px, 63.42px, #ffffff, hue);
+    top: 303px;
+    right: 106px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 35px 0px 0px;
+    transform: rotate(180deg);
+  }
+
+  .home-tablet-fig-63 {
+    @include drop(absolute, 73.65px, 73.65px, #ffffff, hue);
+    top: 589px;
+    right: 0px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 72px;
+  }
+
+  .home-tablet-fig-46 {
+    @include drop(absolute, 73.65px, 73.65px, #ffffff, hue);
+    top: 155px;
+    right: 106px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 72px;
+  }
+
+  .home-tablet-fig-10 {
+    @include drop(absolute, 73.65px, 73.65px, #ffffff, hue);
+    top: 155px;
+    left: 106px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 35px 0px 0px;
+  }
+
+  .home-tablet-fig-61 {
+    @include drop(absolute, 73.65px, 73.65px, #ffffff, hue);
+    top: 515px;
+    right: 32px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 35px 0px;
+    transform: rotate(-180deg);
+  }
+
+  .home-tablet-fig-62 {
+    @include drop(absolute, 73.65px, 73.65px, #ffffff, hue);
+    top: 438px;
+    left: 32px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 35px 0px;
+  }
+
+  .home-tablet-fig-3 {
+    @include drop(absolute, 73.65px, 73.65px, #ffffff, hue);
+    top: 82px;
+    left: 32px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 35px 0px;
+  }
+
+  .home-tablet-fig-10 {
+    @include drop(absolute, 73.65px, 73.65px, #ffffff, hue);
+    top: 8px;
+    right: 32px;
+    border-radius: 0px 0px 35px 0px;
+  }
+
+  .home-tablet-grey {
+    position: absolute;
+    background-size: cover;
+    left: 32px;
+    top: 365px;
+    width: 100px;
+    height: 73.65px;
+    mix-blend-mode: hue;
+    filter: drop-shadow(20px 20px 80px rgba(0, 0, 0, 0.25));
+    z-index: 0;
+    background-image: url(../images/home-hero/background/tablet/home-grey.png);
+  }
+
+  .home-tablet-green {
+    position: absolute;
+    background-size: cover;
+    left: 106px;
+    top: 79px;
+    width: 100px;
+    height: 73.65px;
+    mix-blend-mode: hue;
+    filter: drop-shadow(20px 20px 80px rgba(0, 0, 0, 0.25));
+    z-index: 0;
+    background-image: url(../images/home-hero/background/tablet/home-green.png);
+  }
+
+  .home-tablet-color {
+    position: absolute;
+    background-size: cover;
+    right: 82px;
+    top: 82px;
+    width: 90px;
+    height: 73.65px;
+    filter: drop-shadow(20px 20px 80px rgba(0, 0, 0, 0.25));
+    z-index: 0;
+    background-image: url(../images/home-hero/background/tablet/home-color.png);
+  }
+
+  .home-tablet-mush {
+    position: absolute;
+    background-size: cover;
+    right: 32px;
+    top: 303px;
+    width: 90px;
+    height: 73.65px;
+    mix-blend-mode: hue;
+    filter: drop-shadow(20px 20px 80px rgba(0, 0, 0, 0.25));
+    z-index: 0;
+    background-image: url(../images/home-hero/background/tablet/home-mush.png);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .home-desktop-fig-2 {
+    @include drop(absolute, 144px, 144px, #ffffff, multiply);
+    border-radius: 72px 0px 0px 0px;
+    top: 7px;
+    left: 32px;
+  }
+
+  .home-desktop-fig-19-38 {
+    @include drop(absolute, 144px, 144px, #ffffff, multiply);
+    top: 7px;
+    left: 293px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 72px 0px 0px 72px;
+    transform: rotate(180deg);
+  }
+
+  .home-desktop-fig-9-38 {
+    @include drop(absolute, 144px, 144px, #ffffff, multiply);
+    top: 7px;
+    right: 293px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 72px 0px 0px 72px;
+  }
+
+  .home-desktop-fig-45 {
+    @include drop(absolute, 144px, 144px, #ffffff, multiply);
+    top: 151px;
+    right: 176px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+  }
+
+  .home-desktop-fig-12 {
+    @include drop(absolute, 144px, 144px, #ffffff, multiply);
+    top: 583px;
+    left: 176px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 72px 0px;
+  }
+
+  .home-desktop-fig-5 {
+    @include drop(absolute, 144px, 144px, #ffffff, multiply);
+    top: 439px;
+    left: 32px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 0px 72px;
+  }
+
+  .home-desktop-fig-60 {
+    @include drop(absolute, 144px, 144px, #ffffff, multiply);
+    top: 439px;
+    right: 32px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 72px 0px;
+  }
+
+  .home-desktop-fig-19 {
+    @include drop(absolute, 144px, 144px, #ffffff, multiply);
+    top: 1264px;
+    left: 32px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 72px 0px;
+  }
+
+  .home-desktop-fig-48 {
+    @include drop(absolute, 144px, 144px, #ffffff, multiply);
+    top: 583px;
+    right: 176px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 72px 0px;
+  }
+
+  .home-desktop-fig-58 {
+    @include drop(absolute, 144px, 144px, #ffffff, multiply);
+    top: 851px;
+    right: 32px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 72px 0px 0px;
+    transform: rotate(180deg);
+  }
+
+  .home-desktop-fig-63 {
+    @include drop(absolute, 144px, 144px, #ffffff, multiply);
+    top: 1142px;
+    right: 0px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 72px;
+  }
+
+  .home-desktop-fig-46 {
+    @include drop(absolute, 144px, 144px, #ffffff, multiply);
+    top: 295px;
+    right: 176px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 72px;
+  }
+
+  .home-desktop-fig-10 {
+    @include drop(absolute, 144px, 144px, #ffffff, multiply);
+    top: 295px;
+    left: 176px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 72px 0px 0px;
+  }
+
+  .home-desktop-fig-61 {
+    @include drop(absolute, 144px, 144px, #ffffff, multiply);
+    top: 1142px;
+    right: 32px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 72px 0px;
+    transform: rotate(-180deg);
+  }
+
+  .home-desktop-fig-62 {
+    @include drop(absolute, 144px, 144px, #ffffff, multiply);
+    top: 1142px;
+    left: 32px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 72px 0px;
+  }
+
+  .home-desktop-fig-3 {
+    @include drop(absolute, 144px, 144px, #ffffff, multiply);
+    top: 151px;
+    left: 32px;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 72px 0px;
+  }
+
+  .home-desktop-fig-10 {
+    @include drop(absolute, 144px, 144px, #ffffff, multiply);
+    top: 7px;
+    right: 149px;
+  }
+  .home-desk-grey {
+    position: absolute;
+    background-size: cover;
+    left: 32px;
+    top: 704px;
+    width: 200px;
+    height: 144px;
+    mix-blend-mode: hue;
+    filter: drop-shadow(20px 20px 80px rgba(0, 0, 0, 0.25));
+    z-index: 0;
+    background-image: url(../images/home-hero/background/desktop/home-grey-desk.png);
+  }
+  .home-desk-green {
+    position: absolute;
+    background-size: cover;
+    left: 176px;
+    top: 146px;
+    width: 200px;
+    height: 144px;
+    mix-blend-mode: hue;
+    filter: drop-shadow(20px 20px 80px rgba(0, 0, 0, 0.25));
+    z-index: 0;
+    background-image: url(../images/home-hero/background/desktop/home-green-desk.png);
+  }
+  .home-desk-color {
+    position: absolute;
+    background-size: cover;
+    right: 32px;
+    top: 151px;
+    width: 175px;
+    height: 144px;
+    mix-blend-mode: hue;
+    filter: drop-shadow(20px 20px 80px rgba(0, 0, 0, 0.25));
+    z-index: 0;
+    background-image: url(../images/home-hero/background/desktop/home-color-desk.png);
+  }
+  .home-desk-mush {
+    position: absolute;
+    background-size: cover;
+    right: 32px;
+    top: 582px;
+    width: 175px;
+    height: 144px;
+    mix-blend-mode: hue;
+    filter: drop-shadow(20px 20px 80px rgba(0, 0, 0, 0.25));
+    z-index: 0;
+    background-image: url(../images/home-hero/background/desktop/home-mush-desk.png);
+  }
+}
+
+//   .desktop-fig-44 {
+//     @include drop(absolute, 144px, 144px, #ffffff, multiply);
+//     top: 7px;
+//     right: 149px;
+//   }
+//   .desktop-fig-68 {
+//     @include drop(absolute, 144px, 144px, #ffffff, multiply);
+//     right: 0;
+//     top: 1247px;
+//     box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+//     border-radius: 72px;
+//   }
+
+//   .desktop-fig-46 {
+//     @include drop(absolute, 144px, 144px, #ffffff, multiply);
+//     left: -64px;
+//     top: 1077px;
+//     background: #ffffff;
+//     box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+//     border-radius: 72px;
+//   }
+
+//   .desktop-fig-60 {
+//     @include drop(absolute, 144px, 144px, #ffffff, multiply);
+//     right: 0;
+//     top: 667px;
+//     box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+//     border-radius: 72px 0px;
+//   }
+
+//   .desktop-fig-61 {
+//     @include drop(absolute, 144px, 144px, #ffffff, multiply);
+//     right: 0;
+//     top: 159px;
+//     box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+//     border-radius: 0px 0px 72px 0px;
+//     transform: rotate(90deg);
+//   }
+
+//   .desktop-fig-3 {
+//     @include drop(absolute, 144px, 144px, #ffffff, multiply);
+//     left: 13px;
+//     top: 280px;
+//     box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+//     border-radius: 0px 0px 72px 0px;
+//   }
+// }

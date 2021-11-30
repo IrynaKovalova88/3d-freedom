@@ -1,7 +1,9 @@
 html {
   box-sizing: border-box;
 }
-
+body {
+  margin: 0;
+}
 *,
 *::after,
 *::before {
@@ -54,4 +56,8 @@ address {
   font-style: normal;
   /* or */
   font-style: inherit;
+}
+ul {
+  margin: 0;
+  padding: 0;
 }
