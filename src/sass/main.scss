@@ -1,0 +1,24 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+// Стили для файла с примером HTML-фрагмента
+@import './base';
+@import './common';
+@import './variables';
+@import './home-decor';
+@import './decor';
+@import './header';
+@import './adaptive-menu';
+@import './hero-section';
+@import './gallery';
+@import './more-photos';
+@import './footer';
+@import './modeling';
+@import './scanning-hero';
+@import './scanning-process';
+@import './scanning-button';
+@import './printing';
+@import './take-order';
+@import './contact';

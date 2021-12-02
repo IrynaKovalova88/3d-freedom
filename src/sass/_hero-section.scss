@@ -1,0 +1,77 @@
+.home-hero {
+  padding: 30px 0 25px 0;
+}
+.home-page {
+  background: url('../images/decor.png') center center no-repeat;
+  background-size: contain;
+}
+.home-hero-title {
+  font-family: var(--primary-font);
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.17;
+  text-align: center;
+  margin: 0 auto 30px auto;
+}
+.home-hero-images {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.home-hero-item {
+  overflow: hidden;
+  display: block;
+  filter: drop-shadow(20px 20px 80px rgba(0, 0, 0, 0.3));
+  &.figure {
+    border-top-right-radius: 45%;
+  }
+  &.petal {
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+  }
+  &.round {
+    border-radius: 50%;
+  }
+}
+.home-hero-subtitle {
+  font-size: 16px;
+  line-height: 1.9;
+  font-weight: 400;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .home-hero-title {
+    font-size: 24px;
+    max-width: 350px;
+    margin-bottom: 65px;
+  }
+  .home-hero-subtitle {
+    font-size: 18px;
+  }
+  .home-hero-images {
+    margin-bottom: 65px;
+  }
+  .home-hero {
+    .home-hero-images {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+@media screen and (min-width: 992px) {
+  .home-hero {
+    padding-top: 70px;
+  }
+  .home-hero-images {
+    max-width: 690px;
+  }
+  .home-hero-title {
+    max-width: 600px;
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 300;
+  }
+  .home-hero-subtitle {
+    font-size: 36px;
+  }
+}
